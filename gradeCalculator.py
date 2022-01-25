@@ -19,7 +19,7 @@ def calculateGrade():
         else:
             grade = "Bad score"
 
-    except: grade = 'Invalid input!'
+    except: grade = 'Bad score'
 
     
     print(grade)
