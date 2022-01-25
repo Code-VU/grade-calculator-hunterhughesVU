@@ -8,13 +8,13 @@ def calculateGrade():
 
         if(score >= 0.9 and score <= 1.0):
             grade = 'A'
-        elif(score >= 0.8 and score < 9.0):
+        if(score >= 0.8 and score < 9.0):
             grade = 'B'
-        elif(score >= 0.7 and score < 8.0):
+        if(score >= 0.7 and score < 8.0):
             grade = 'C'
-        elif(score >= 0.6 and score < 7.0):
+        if(score >= 0.6 and score < 7.0):
             grade = 'D'
-        elif(score < 0.6 and score >= 0.0):
+        if(score < 0.6 and score >= 0.0):
             grade = 'F'
         else:
             grade = "Bad score"
@@ -24,8 +24,6 @@ def calculateGrade():
     
     print(grade)
         
-
-
     # end assignment
 
 ## if you want to test locally before you try to sync
