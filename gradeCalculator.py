@@ -17,7 +17,7 @@ def calculateGrade():
         elif(score < 0.6 and score >= 0.0):
             grade = 'F'
         else:
-            grade = "Score is out of range! (0.0 - 1.0)"
+            grade = "Bad score"
 
     except: grade = 'Invalid input!'
 
