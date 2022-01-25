@@ -16,7 +16,7 @@ def calculateGrade():
             grade = 'D'
         if(score < 0.6 and score >= 0.0):
             grade = 'F'
-        else:
+        if(score < 0.0 or score > 1.0):
             grade = "Bad score"
 
     except: grade = 'Bad score'
@@ -30,4 +30,4 @@ def calculateGrade():
 ## uncomment calculateGrade() and run > python calculateGrade.py
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
-#calculateGrade()
+calculateGrade()
